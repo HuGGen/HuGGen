@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"GOWORK/util"
+	"github.com/HuGGen/HuGGen/tree/master/go-ssh/util"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

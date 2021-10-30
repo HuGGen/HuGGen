@@ -1,4 +1,4 @@
-module GOWORK
+module go-ssh
 
 go 1.17
 
