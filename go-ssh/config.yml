@@ -1,0 +1,11 @@
+version: v0
+scripts:
+  - name: 'ssh_exp'
+    script: 'echo 'This is my output!''
+    timeout: '5s'
+    pattern: '^[a-zA-Z]*$'
+    credentials:
+    - host: '112.172.32.123'
+      port: '22'
+      user: 'root'
+      keyfile: '/id_rsa'
